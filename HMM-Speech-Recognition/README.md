@@ -1,6 +1,6 @@
 # HMM ile İzole Kelime Tanıma Sistemi Tasarımı
 
-Bu proje, YZM212 Makine Öğrenmesi dersi I. Laboratuvar değerlendirmesi kapsamında geliştirilmiştir. Temel amacı, Saklı Markov Modelleri (HMM - Hidden Markov Model) kullanılarak istatistiksel tabanlı bir izole kelime tanıma (speech recognition) sistemi simüle etmektir.
+Bu proje, YZM212 Makine Öğrenmesi dersi I. Laboratuvar Ödevi kapsamında geliştirilmiştir. Temel amacı, HMM - Hidden Markov Modelleri kullanılarak istatistiksel tabanlı bir izole kelime tanıma (speech recognition) sistemi simüle etmektir.
 
 ## 📌 Problem Tanımı
 Konuşma tanıma sistemlerinde kelimeler, "fonem" adı verilen temel ses birimlerinden oluşur. Bu projede fonemler HMM içerisindeki "Gizli Durumlar" (Hidden States) olarak modellenmiş olup, dışarıdan alınan ses spektrumu frekansları (High/Low) ise "Gözlemler" (Observations) olarak ele alınmıştır. Amaç, belirli olasılık matrislerine dayanarak, verilen bir ses dizisini en yüksek olasılıkla (Log-Likelihood) üretebilecek kelimeyi (EV veya OKUL) tespit etmektir.
@@ -31,4 +31,5 @@ Projeyi kendi ortamınızda çalıştırmak için:
 
 2. Sınıflandırma kodunu çalıştırın:
    python src/recognizer.py
+
 
