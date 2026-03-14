@@ -1,4 +1,4 @@
-# MLE ile Akıllı Şehir Planlaması (YZM212)
+# MLE ile Akıllı Şehir Planlaması
 
 Bu proje, YZM212 Makine Öğrenmesi dersi 2. Laboratuvar değerlendirmesi kapsamında geliştirilmiştir. Temel amacı, bir şehrin ana caddesindeki trafik yoğunluğunu Poisson Dağılımı ve Maximum Likelihood Estimation (MLE) yöntemi kullanarak istatistiksel olarak modellemektir.
 
